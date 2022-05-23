@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./index.js"></script>
+</head>
+<body>
+    <div id="container0">
+        <div id="container1">
+            <h2 id="welcomeScenes">
+                Hey Submit the form Please
+            </h2>
+            <p id="WelcomeScenes1"></p>
+        </div>
+        <div id="container2">
+            <div class="container">
+                <form id="form" action="/">
+                    <h1>Registration</h1>
+                    <div class="input-control">
+                        <label for="username">Username</label>
+                        <input id="username" name="username" type="text">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-control">
+                        <label for="email">Age</label>
+                        <input id="age" name="age" type="number">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-control">
+                        <label for="password">Password</label>
+                        <input id="password"name="password" type="password">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-control">
+                        <label for="password2">Password again</label>
+                        <input id="cpassword"name="cpassword" type="password">
+                        <div class="error"></div>
+                    </div>
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
